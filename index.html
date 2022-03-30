@@ -4,31 +4,75 @@
         <title>Maxime DYNA - Curriculum Vitae</title>
         <meta charset="utf-8">
         <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/bootstrap.min.css">
     </head>
-    <body>
-        
-        
-        <header>
-            
-        </header>
+    <body id="page-top">
         <!--Le menu principal-->
-        <!--début-->
-        <nav>
-            <ul>
-                <li><a href="#education">éducation</a></li>
-                <li><a href="#experience">expérience</a></li>
-                <li><a href="#competences">compétences</a></li>
-                <li><a href="#projets">projets</a></li>
-                <li><a href="#loisirs">loisirs</a></li>
-                <li><a href="#langues">langues</a></li>
-                <li><a href="#contact">contact</a></li>
+        <nav class="navbar navbar-light bg-light fixed-top">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">MJ world</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+                <div class="offcanvas-header">
+                  <h5 class="offcanvas-title" id="offcanvasNavbarLabel">My world</h5>
+                  <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                  <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                    <li class="nav-item">
+                      <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">Link</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                      <a class="nav-link dropdown-toggle" href="#" id="offcanvasNavbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Dropdown
+                      </a>
+                      <ul class="dropdown-menu" aria-labelledby="offcanvasNavbarDropdown">
+                        <li><a class="dropdown-item" href="#">Action</a></li>
+                        <li><a class="dropdown-item" href="#">Another action</a></li>
+                        <li>
+                          <hr class="dropdown-divider">
+                        </li>
+                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                      </ul>
+                    </li>
+                  </ul>
+                  <form class="d-flex">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </nav>
+        <a class="menu-toggle rounded" href="#"><i class="fas fa-bars"></i></a>
+        <nav id="sidebar-wrapper">
+            <ul class="sidebar-nav">
+                <li class="sidebar-brand"><a href="#page-top">MJ World</a></li>
+                <li class="sidebar-nav-item"><a href="#education">éducation</a></li>
+                <li class="sidebar-nav-item"><a href="#experience">expérience</a></li>
+                <li class="sidebar-nav-item"><a href="#competences">compétences</a></li>
+                <li class="sidebar-nav-item"><a href="#projets">projets</a></li>
+                <li class="sidebar-nav-item"><a href="#loisirs">loisirs</a></li>
+                <li class="sidebar-nav-item"><a href="#langues">langues</a></li>
+                <li class="sidebar-nav-item"><a href="#contact">contact</a></li>
             </ul>
-        </nav class="main-menu">
-        <!--fin-->
+        </nav>
+        <!--header-->
         <a href="img/profil.jpg">
             <img src="img/profil_mini.jpg" alt="profile picture" title="profile"/>
         </a>
         <h1>Maxime Jacques <br /> DYNA NGOTHY</h1>
+        <!--Description-->
+        <h3>Ingénieur Système d'Information chez PROOFTAG-CATIS | CEO at TALK-ADK</h3>
+        <h3>Ingénieur Système d'Information & Developpement d'applications</h3>
+        <p>
+            
+        </p>
         <section>
             <h2 id="education">éducation</h2>
         </section>
