@@ -3,9 +3,13 @@
     <head>
         <title>Maxime DYNA - Curriculum Vitae</title>
         <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="icon" type="image/x-icon" href="/img/favicon.jpg">
         <link rel="stylesheet" href="css/style.css">
         <link rel="stylesheet" href="css/bootstrap.min.css">
+        <script src="/js/bootstrap.min.js"></script>
+        <script src="/js/jquery.min.js"></script>
+        
 
     </head>
     <body id="page-top">
@@ -96,14 +100,29 @@
         <!--Section: Contact v.2-->
         <section class="mb-4">
 
-          <!--Section heading-->
-        <h2 id="contact" class="h1-responsive font-weight-bold text-center my-4">Contacts</h2>
+        <!--Section heading-->
+          <h2 id="contact" class="h1-responsive font-weight-bold text-center my-4">Contacts</h2>
         <!--Section description-->
           <p class="text-center w-responsive mx-auto mb-5">Vous avez des questions ? N'hésitez pas à contacter directement.</p>
-        <div class="row">
-
+          <div class="row">
         <!--Grid column-->
-              
+        <div class="col-md-9 mb-md-0 mb-5">
+          <form method="post" action="contact-form" style="margin: 50px;">
+            <div class="form-group">
+              <label for="name">Name</label>
+              <input type="text" id="name" class="form-control">
+            </div>
+            <div class="form-group">
+              <label for="email">Email</label>
+              <input type="text" id="email" class="form-control">
+            </div>
+            <div class="form-group">
+              <label for="email">Message</label>
+              <textarea class="form-control" id="message"></textarea>
+            </div>
+            <button type="submit" class="btn btn-defaul" >Send</button>
+          </form>
+        </div>    
           <footer>
             <p>
                 Copyright@2022  <br/>
