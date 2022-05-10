@@ -1,0 +1,23 @@
+{
+  "name": "online-cv",
+  "version": "1.0.0",
+  "description": "My Curriculum Vitae",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MaximeDYNA/online-cv.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MaximeDYNA/online-cv/issues"
+  },
+  "homepage": "https://github.com/MaximeDYNA/online-cv#readme",
+  "dependencies": {
+    "bootstrap-icons": "^1.8.1"
+  }
+}
