@@ -7,6 +7,10 @@
     text-decoration: none;
     color: #1c1b1ba6;
 }
+.nav-link-active:hover
+{
+    color: #ffffffa6;
+}
 .sidebar-nav-item
 {
     list-style: none;
