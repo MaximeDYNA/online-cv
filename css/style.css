@@ -1,4 +1,13 @@
 .offcanvas-body
 {
-    background-color: #e9bd15;
+    background-color: #ffcf39;
+}
+.nav-link-active
+{
+    text-decoration: none;
+    color: #1c1b1ba6;
+}
+.sidebar-nav-item
+{
+    list-style: none;
 }
