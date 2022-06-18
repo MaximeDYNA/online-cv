@@ -56,3 +56,7 @@ body
 {
     color: #ffffffa6;
 }
+.social-media + img
+{
+    color: #ffcf39;
+}
