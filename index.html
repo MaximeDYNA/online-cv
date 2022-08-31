@@ -1,5 +1,5 @@
-<!DOCTYPE html>
-<html>
+<!DOCTYPE html >
+<html lang = "fr">
     <head>
         <title>Maxime DYNA - Curriculum Vitae</title>
         <meta charset="utf-8">
@@ -112,10 +112,8 @@
             </p>
         </div>      
       </div>
-        </div>
         <section >
-          <div id="education"></div>
-          <div>
+          <div id="education">
             <h3  class="h1-responsive font-weight-bold text-center my-4">EDUCATION</h3>
           </div>      
           <div>
@@ -152,7 +150,7 @@
             <h4>
               Novembre 2020 - Aujourd'hui
             </h4>
-            <p class="text-center">
+            <div class="text-center">
               <ul>
                 <li>
                   SERVICE SUPPORT (Avril 2021)
@@ -186,7 +184,7 @@
                   Outils : Docker Engine; Docker compose ; Github
                 </li>
               </ul>
-            </p>
+            </div>
 
           </div>
                
@@ -227,31 +225,32 @@
             </div>
         </section>
         <!--Section: Contact v.2-->
-        <section class="mb-4">
-
-        <!--Section heading-->
+        <section class="mb-4" id = "contacts">
+          <!--Section heading-->
           <h3 id="contact" class="h1-responsive font-weight-bold text-center my-4">CONTACT</h3>
         <!--Section description-->
           <p class="text-center w-responsive mx-auto mb-5">Vous avez des questions ? N'hésitez pas à contacter directement.</p>
-          <div class="row">
+          <div class="row"> 
         <!--Grid column-->
-        <div class="col-md-9 mb-md-0 mb-5">
-          <form method="post" action="save-form" style="margin: 50px;">
-            <div class="form-group">
-              <label for="name">Name</label>
-              <input type="text" id="name" class="form-control">
+            <div class="col-md-9 mb-md-0 mb-5">
+              <form method="post" action="save-form" style="margin: 50px;">
+                <div class="form-group">
+                  <label for="name">Name</label>
+                  <input type="text" id="name" class="form-control">
+                </div>
+                <div class="form-group">
+                  <label for="email">Email</label>
+                  <input type="text" id="email" class="form-control">
+                </div>
+                <div class="form-group">
+                  <label for="email">Message</label>
+                  <textarea class="form-control" id="message"></textarea>
+                </div>
+                <button type="submit" class="btn btn-defaul" >Send</button>
+              </form>
             </div>
-            <div class="form-group">
-              <label for="email">Email</label>
-              <input type="text" id="email" class="form-control">
-            </div>
-            <div class="form-group">
-              <label for="email">Message</label>
-              <textarea class="form-control" id="message"></textarea>
-            </div>
-            <button type="submit" class="btn btn-defaul" >Send</button>
-          </form>
-        </div>
+          </div>
+        </section>
         <div>
           <h2 class="name">Maxime Jacques <br /> DYNA NGOTHY</h2>
         <!--Description-->
@@ -290,5 +289,6 @@
                 Powered by <a href="https://dyna.talk-adk.com">Maxime DYNA</a>
             </p>
         </footer>
+      
     </body>
 </html>
